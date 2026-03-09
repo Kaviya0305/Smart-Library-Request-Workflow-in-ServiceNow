@@ -1,87 +1,33 @@
 # Smart Library Request Workflow in ServiceNow
 
-## Project Overview
-The **Smart Library Request Workflow** is a ServiceNow project designed to automate the traditional library book request and approval process. The system helps students request books online and allows librarians to manage approvals, book issuance, and returns efficiently.
+## Project Title
 
-This automation improves **data accuracy, transparency, and workflow efficiency** compared to manual record-keeping systems.
+**Smart Library Request Workflow in ServiceNow**
 
----
+## Description
 
+The Smart Library Request Workflow is a ServiceNow-based project designed to automate the traditional library book request and approval process. The system allows students to check book availability and submit borrow requests online, while librarians can review requests, issue books, and update return status.
+This automation helps improve efficiency, reduce manual errors, and provide real-time visibility of library records.
 
-## Problem Statement
-Traditional library systems rely on manual records which create several issues such as:
-- No real-time information about book availability
-- Slow manual approval process
-- Difficulty tracking borrowing history
-- Risk of data loss or duplication
+## Features
 
-This project solves these problems by implementing an automated workflow using **ServiceNow**.
+* Book search and availability checking
+* Online book request submission
+* Librarian approval and rejection system
+* Automatic update of book status (Available / Issued)
+* Email notifications for request updates
+* Role-Based Access Control (Student and Librarian)
+* Dynamic forms using UI Policies
 
----
+## Tools Used
 
-## User Roles
-
-### Student
-Students can:
-- Search for books
-- Check book availability
-- Submit borrow requests
-- Track request status
-
-### Librarian
-Librarians can:
-- Manage the book catalog
-- Review and approve requests
-- Issue and return books
-
----
-
-## Database Tables
-
-### Book Table (`u_book`)
-Stores information about books:
-- Title
-- Author
-- Category
-- Availability Status
-
-### Borrow Request Table (`u_borrow_request`)
-Tracks borrowing transactions:
-- Student details
-- Book reference
-- Borrow date
-- Return date
-- Request status
-
----
-
-## Workflow Process
-
-1. Student submits a **book request**.
-2. Librarian reviews the request.
-3. If approved, the book status changes to **Issued**.
-4. After the book is returned, the librarian updates the status to **Available**.
-
----
-
-## ServiceNow Features Used
-- Flow Designer
-- Business Rules
-- UI Policies
-- Reference Qualifiers
-- Email Notifications
-- Role-Based Access Control (RBAC)
-
----
-
-## Benefits
-- Automated book request system
-- Faster approval workflow
-- Real-time book availability
-- Improved data management
-- Better user experience
-
----
+* ServiceNow Platform
+* Flow Designer
+* Business Rules
+* UI Policies
+* Reference Qualifiers
+* Email Notifications
 
 ## Conclusion
-The **Smart Library Request Workflow** simplifies library operations by automating the borrowing process and improving system efficiency using ServiceNow.
+
+The Smart Library Request Workflow simplifies library operations by replacing manual processes with automated workflows in ServiceNow. The system improves accuracy, speeds up request processing, and provides better management of book availability and borrowing records.
